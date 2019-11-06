@@ -1,0 +1,3 @@
+- main.py是自带的前向传播demo
+- mytry.py 是自己的简单神经网络模型
+- my_try_transfer.py是自己的迁移学习代码
