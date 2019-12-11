@@ -5,8 +5,8 @@ import torchvision.transforms as transforms
 import time 
 
 # Device configuration
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
+device = torch.device('cpu' if torch.cuda.is_available() else 'cpu')
+print(device)
 # Hyper-parameters 
 input_size = 784
 hidden_size = 500

@@ -5,3 +5,6 @@ data/
 
 *.pth
 *.ckpt
+*.xml
+*.iml
+*.jpg

@@ -1,6 +1,7 @@
 #%%
 import torch
 import torch.nn as nn
+from torchviz import make_dot
 
 #%%
 class Net(nn.Module):
@@ -25,3 +26,5 @@ print(n)
 torch.save(n,"torch_model.pth")
 
 #%%
+g = make_dot(o)
+g.render('espnet_model', view=False)
